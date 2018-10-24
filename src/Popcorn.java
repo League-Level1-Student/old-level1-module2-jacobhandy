@@ -10,6 +10,46 @@
  * Ask the user for the flavor of the popcorn and the number of minutes to cook it.
  *  Don't change the existing methods.
  */
+class PopcornMaker {
+	public static void main(String[] args) {
+		Microwave mwave = new Microwave();
+		Popcorn popcorn = new Popcorn("flavor");
+		mwave.putInMicrowave(popcorn);
+		mwave.setTime(100);
+		mwave.startMicrowave();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class Microwave {
 	private int cookTime;
