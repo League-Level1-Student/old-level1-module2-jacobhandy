@@ -6,13 +6,16 @@ import javax.swing.JOptionPane;
  */
 
 
-/* Your mission and you have to accept it: no i don't
- * Create a PopcornMaker class and add a main method to it that creates a bag of Popcorn and cooks it in the microwave.
- * Ask the user for the flavor of the popcorn and the number of minutes to cook it.
+/* 
+ * Create a PopcornMaker class and add a main method to it that creates a bag of   and cooks it in the microwave.
+ * Ask the user for the flavor of the   and the number of minutes to cook it.
  *  Don't change the existing methods.
  */
 class PopcornMaker {
-	public static void main(String[] args) {
+ 	
+	
+	
+	void main(String[] args) {
 	String minutes = JOptionPane.showInputDialog("Enter Minutes");
 	int time = Integer.parseInt(minutes);
 	Microwave mwave = new Microwave();

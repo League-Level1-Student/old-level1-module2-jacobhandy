@@ -20,13 +20,13 @@ This is because there is no Minion class in the package.
  So to make these tests pass, you will first need to create a Minion class with the member variables below:
 
   			private String name; 
-  			private int eyes; 
+  			private integer eyes; 
   			private String color; 
   			private String master;
 
  3.
   Next, create a constructor, and getters and setters for all the member variables of the Minion class. 
-  If they’re done right, all these tests will pass.
+  If they're done right, all these tests will pass.
   
   To check, run this MinionTest class and the JUnit tab should show a GREEN bar.
     
